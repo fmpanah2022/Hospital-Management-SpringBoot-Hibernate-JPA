@@ -15,6 +15,7 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+//Cashier Entity - cashier table
 public class Cashier implements Serializable {
     @Id
     @GeneratedValue( strategy = GenerationType.AUTO)

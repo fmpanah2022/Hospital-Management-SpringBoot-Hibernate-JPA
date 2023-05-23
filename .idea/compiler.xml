@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Hospital Management Spring Boot_In DEVELOP" />
+        <module name="BOOT-Sample" />
         <module name="Service1" />
         <module name="Hospital" />
         <module name="Hospital Management Spring Boot_Hibernate JPA_JPQL - Object Mapper" />
