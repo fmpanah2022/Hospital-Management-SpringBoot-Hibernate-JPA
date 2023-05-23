@@ -1,0 +1,16 @@
+server:
+  port: 9901
+spring:
+  application.name: hospital-service
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/orcl
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: amirsam
+    password: myjava123
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
